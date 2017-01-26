@@ -10,6 +10,21 @@
 		7C2195091E39D36600A1357E /* GrailsSpringSecurityRestObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2194FF1E39D36600A1357E /* GrailsSpringSecurityRestObjc.framework */; };
 		7C21950E1E39D36600A1357E /* GrailsSpringSecurityRestObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21950D1E39D36600A1357E /* GrailsSpringSecurityRestObjcTests.m */; };
 		7C2195101E39D36600A1357E /* GrailsSpringSecurityRestObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195021E39D36600A1357E /* GrailsSpringSecurityRestObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2195261E39D3AD00A1357E /* GrailsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195191E39D3AD00A1357E /* GrailsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2195271E39D3AD00A1357E /* GrailsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21951A1E39D3AD00A1357E /* GrailsApi.m */; };
+		7C2195281E39D3AD00A1357E /* GrailsAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C21951B1E39D3AD00A1357E /* GrailsAuthenticationRequest.h */; };
+		7C2195291E39D3AD00A1357E /* GrailsAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21951C1E39D3AD00A1357E /* GrailsAuthenticationRequest.m */; };
+		7C21952A1E39D3AD00A1357E /* GrailsJwt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C21951D1E39D3AD00A1357E /* GrailsJwt.h */; };
+		7C21952B1E39D3AD00A1357E /* GrailsJwt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21951E1E39D3AD00A1357E /* GrailsJwt.m */; };
+		7C21952C1E39D3AD00A1357E /* GrailsJwtBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C21951F1E39D3AD00A1357E /* GrailsJwtBuilder.h */; };
+		7C21952D1E39D3AD00A1357E /* GrailsJwtBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2195201E39D3AD00A1357E /* GrailsJwtBuilder.m */; };
+		7C21952E1E39D3AD00A1357E /* GrailsJwtStoragePr.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195211E39D3AD00A1357E /* GrailsJwtStoragePr.h */; };
+		7C21952F1E39D3AD00A1357E /* GrailsRefreshRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195221E39D3AD00A1357E /* GrailsRefreshRequest.h */; };
+		7C2195301E39D3AD00A1357E /* GrailsRefreshRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2195231E39D3AD00A1357E /* GrailsRefreshRequest.m */; };
+		7C2195311E39D3AD00A1357E /* GrailsUserDefaultsStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195241E39D3AD00A1357E /* GrailsUserDefaultsStore.h */; };
+		7C2195321E39D3AD00A1357E /* GrailsUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2195251E39D3AD00A1357E /* GrailsUserDefaultsStore.m */; };
+		7C2195351E39D3C300A1357E /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2195331E39D3C300A1357E /* NSString+URLEncode.h */; };
+		7C2195361E39D3C300A1357E /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2195341E39D3C300A1357E /* NSString+URLEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,21 @@
 		7C2195081E39D36600A1357E /* GrailsSpringSecurityRestObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrailsSpringSecurityRestObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C21950D1E39D36600A1357E /* GrailsSpringSecurityRestObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrailsSpringSecurityRestObjcTests.m; sourceTree = "<group>"; };
 		7C21950F1E39D36600A1357E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2195191E39D3AD00A1357E /* GrailsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsApi.h; sourceTree = "<group>"; };
+		7C21951A1E39D3AD00A1357E /* GrailsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsApi.m; sourceTree = "<group>"; };
+		7C21951B1E39D3AD00A1357E /* GrailsAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsAuthenticationRequest.h; sourceTree = "<group>"; };
+		7C21951C1E39D3AD00A1357E /* GrailsAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsAuthenticationRequest.m; sourceTree = "<group>"; };
+		7C21951D1E39D3AD00A1357E /* GrailsJwt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsJwt.h; sourceTree = "<group>"; };
+		7C21951E1E39D3AD00A1357E /* GrailsJwt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwt.m; sourceTree = "<group>"; };
+		7C21951F1E39D3AD00A1357E /* GrailsJwtBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsJwtBuilder.h; sourceTree = "<group>"; };
+		7C2195201E39D3AD00A1357E /* GrailsJwtBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwtBuilder.m; sourceTree = "<group>"; };
+		7C2195211E39D3AD00A1357E /* GrailsJwtStoragePr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsJwtStoragePr.h; sourceTree = "<group>"; };
+		7C2195221E39D3AD00A1357E /* GrailsRefreshRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsRefreshRequest.h; sourceTree = "<group>"; };
+		7C2195231E39D3AD00A1357E /* GrailsRefreshRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsRefreshRequest.m; sourceTree = "<group>"; };
+		7C2195241E39D3AD00A1357E /* GrailsUserDefaultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsUserDefaultsStore.h; sourceTree = "<group>"; };
+		7C2195251E39D3AD00A1357E /* GrailsUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsUserDefaultsStore.m; sourceTree = "<group>"; };
+		7C2195331E39D3C300A1357E /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		7C2195341E39D3C300A1357E /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,7 @@
 		7C2195011E39D36600A1357E /* GrailsSpringSecurityRestObjc */ = {
 			isa = PBXGroup;
 			children = (
+				7C2195371E39D5E700A1357E /* Grails */,
 				7C2195021E39D36600A1357E /* GrailsSpringSecurityRestObjc.h */,
 				7C2195031E39D36600A1357E /* Info.plist */,
 			);
@@ -86,6 +117,28 @@
 			path = GrailsSpringSecurityRestObjcTests;
 			sourceTree = "<group>";
 		};
+		7C2195371E39D5E700A1357E /* Grails */ = {
+			isa = PBXGroup;
+			children = (
+				7C2195251E39D3AD00A1357E /* GrailsUserDefaultsStore.m */,
+				7C2195331E39D3C300A1357E /* NSString+URLEncode.h */,
+				7C2195341E39D3C300A1357E /* NSString+URLEncode.m */,
+				7C2195191E39D3AD00A1357E /* GrailsApi.h */,
+				7C21951A1E39D3AD00A1357E /* GrailsApi.m */,
+				7C21951B1E39D3AD00A1357E /* GrailsAuthenticationRequest.h */,
+				7C21951C1E39D3AD00A1357E /* GrailsAuthenticationRequest.m */,
+				7C21951D1E39D3AD00A1357E /* GrailsJwt.h */,
+				7C21951E1E39D3AD00A1357E /* GrailsJwt.m */,
+				7C21951F1E39D3AD00A1357E /* GrailsJwtBuilder.h */,
+				7C2195201E39D3AD00A1357E /* GrailsJwtBuilder.m */,
+				7C2195211E39D3AD00A1357E /* GrailsJwtStoragePr.h */,
+				7C2195221E39D3AD00A1357E /* GrailsRefreshRequest.h */,
+				7C2195231E39D3AD00A1357E /* GrailsRefreshRequest.m */,
+				7C2195241E39D3AD00A1357E /* GrailsUserDefaultsStore.h */,
+			);
+			name = Grails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +146,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C21952E1E39D3AD00A1357E /* GrailsJwtStoragePr.h in Headers */,
+				7C2195261E39D3AD00A1357E /* GrailsApi.h in Headers */,
+				7C21952C1E39D3AD00A1357E /* GrailsJwtBuilder.h in Headers */,
+				7C21952A1E39D3AD00A1357E /* GrailsJwt.h in Headers */,
+				7C2195281E39D3AD00A1357E /* GrailsAuthenticationRequest.h in Headers */,
+				7C21952F1E39D3AD00A1357E /* GrailsRefreshRequest.h in Headers */,
+				7C2195311E39D3AD00A1357E /* GrailsUserDefaultsStore.h in Headers */,
+				7C2195351E39D3C300A1357E /* NSString+URLEncode.h in Headers */,
 				7C2195101E39D36600A1357E /* GrailsSpringSecurityRestObjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2195301E39D3AD00A1357E /* GrailsRefreshRequest.m in Sources */,
+				7C2195271E39D3AD00A1357E /* GrailsApi.m in Sources */,
+				7C2195321E39D3AD00A1357E /* GrailsUserDefaultsStore.m in Sources */,
+				7C2195361E39D3C300A1357E /* NSString+URLEncode.m in Sources */,
+				7C21952B1E39D3AD00A1357E /* GrailsJwt.m in Sources */,
+				7C2195291E39D3AD00A1357E /* GrailsAuthenticationRequest.m in Sources */,
+				7C21952D1E39D3AD00A1357E /* GrailsJwtBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +460,7 @@
 				7C2195151E39D36600A1357E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C2195161E39D36600A1357E /* Build configuration list for PBXNativeTarget "GrailsSpringSecurityRestObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +469,7 @@
 				7C2195181E39D36600A1357E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
